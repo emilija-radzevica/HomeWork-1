@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Caslon Text', serif;
+}
+html {
+  background-color: #dbd8e3;
+}
+h2 {
+  font-size: 35px; 
+  padding-bottom: 20px;
+  padding-top: 22px;
+  letter-spacing: 3px;
+  margin-left: 20px
+}
+.extra-block {
+  background-color:#352f44;
+  height: 50px;
+  width: 490px;
+  margin-left: 10vw;
+}
+.name { 
+  background-color: #2a2438;
+  height: 100px;
+  font-size: 50px;
+  line-height: 100px;
+  padding-left: 35vw;
+  letter-spacing: 5px;
+  color: #dbd8e3;
+}
+/*// top-banner */
+.info {
+  display: flex;
+  color: #dbd8e3;
+}
+.personal-info {
+  background-color: #352f44;
+  margin-left: 10vw;
+  width: 500px;
+  padding: 60px;
+}
+.contact {
+  font-size: 27px;
+  line-height: 40px;
+  padding-bottom: 50px
+}
+.link {
+  color: #dbd8e3;
+  text-decoration: none;
+  padding-right: 4px;
+}
+.link:hover {
+  box-shadow: 2px 2px;
+  transition: 0.5s;
+}
+.language {
+  font-size: 23px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.language-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  font-size: 18px;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #dbd8e3;
+  border-radius: 50%;
+  display: inline-block; 
+  margin: 5px;
+}
+.dot-empty {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: solid;
+  border-color: #dbd8e3;
+  display: inline-block; 
+  margin: 5px;
+}
+/* // personal-info tab */
+.history {
+  width: 100%;
+  margin-left: 4vw;
+  color: #2a2438;
+  padding-top: 10px;
+  margin-bottom: 70px;
+  margin-right: 3vw;
+  line-height: 33px;
+}
+.experience {
+  padding: 20px;
+  font-size: 18px
+}
+.experience:hover {
+  background-color: #352f44;
+  color: #dbd8e3;
+  transition: 0.3s
+}
+.profession {
+  font-size: 23px
+}
+.education {
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+}
+.degree {
+  font-weight: bold;
+}
+/* // personal-history */
+  
+  
+  
+  
